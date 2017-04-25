@@ -1,4 +1,7 @@
-# test coverage for  [bower-installer (v1.3.5)](https://github.com/rquadling/bower-installer#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-bower-installer.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-bower-installer) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-bower-installer.svg)](https://travis-ci.org/npmtest/node-npmtest-bower-installer)
+# npmtest-bower-installer
+
+#### basic test coverage for  [bower-installer (v1.3.6)](https://github.com/rquadling/bower-installer#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-bower-installer.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-bower-installer) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-bower-installer.svg)](https://travis-ci.org/npmtest/node-npmtest-bower-installer)
+
 #### Tool for installing bower dependencies that won't include entire repos
 
 [![NPM](https://nodei.co/npm/bower-installer.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/bower-installer)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-bower-installer/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-bower-installer/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-bower-installer/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-bower-installer/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-bower-installer/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-bower-installer/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-bower-installer/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-bower-installer/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-bower-installer/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-bower-installer/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-bower-installer/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-bower-installer/build/coverage.html/index.html)
 
@@ -65,13 +68,13 @@
         "test": "test"
     },
     "dist": {
-        "shasum": "2e43d126feb77621dc8822499c2b23bf6ee76f93",
-        "tarball": "https://registry.npmjs.org/bower-installer/-/bower-installer-1.3.5.tgz"
+        "shasum": "cf7839b65421d2b270ab22c74fc858a55e3a1370",
+        "tarball": "https://registry.npmjs.org/bower-installer/-/bower-installer-1.3.6.tgz"
     },
     "engines": {
         "node": ">=0.10.0"
     },
-    "gitHead": "61708248944b44b461104f2afdf6665bd7cdd02a",
+    "gitHead": "bb89b88e7ac75ac48e2d8d5335151ba3df7d457e",
     "homepage": "https://github.com/rquadling/bower-installer#readme",
     "keywords": [
         "bower",
@@ -98,7 +101,7 @@
     "scripts": {
         "test": "jasmine JASMINE_CONFIG_PATH=test/jasmine.config.json"
     },
-    "version": "1.3.5"
+    "version": "1.3.6"
 }
 ```
 
